@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Data Science & Ethical Hacking</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Fira+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loader"><i id="bolt-loader" class="fas fa-bolt"></i></div>
+  <header class="hero">
+    <div class="container">
+      <h1>Hi, I'm <span class="highlight">Rudro</span></h1>
+      <h2>Software Engineering Student & Data Science Major</h2>
+      <p class="subtitle">Daffodil International University | Aspiring Data Scientist & Ethical Hacker</p>
+    </div>
+  </header>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo-row"><span class="logo">Rudro</span></div>
+      <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section id="about" class="about section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate Software Engineering student at Daffodil International University, majoring in Data Science. I also practice ethical hacking and enjoy solving complex problems in cybersecurity and machine learning. I'm continuously learning and building real-world projects to improve my skills.        </p>
+      </div>
+    </section>
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <div class="project-card">
+            <h3>Calculator App</h3>
+            <p>A simple calculator built with HTML, CSS, and JavaScript for basic arithmetic operations.</p>
+            <a href="https://github.com/yourusername/calculator-app" target="_blank" style="display: inline-flex; align-items: center; background: #24292e; color: #fff; padding: 0.45em 1.1em; border-radius: 6px; text-decoration: none; font-size: 1em; font-weight: 600; margin-top: 0.8em; transition: background 0.2s; gap: 0.5em;">
+              <i class="fab fa-github" style="font-size: 1.2em;"></i> Source Code
+            </a>
+          </div>
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <p>A beginner-friendly app that fetches and displays current weather information using a public API.</p>
+            <a href="https://github.com/yourusername/weather-app" target="_blank" style="display: inline-flex; align-items: center; background: #24292e; color: #fff; padding: 0.45em 1.1em; border-radius: 6px; text-decoration: none; font-size: 1em; font-weight: 600; margin-top: 0.8em; transition: background 0.2s; gap: 0.5em;">
+              <i class="fab fa-github" style="font-size: 1.2em;"></i> Source Code
+            </a>
+          </div>
+          <div class="project-card">
+            <h3>Personal Blog Page</h3>
+            <p>A static web page to share personal thoughts and articles, styled with CSS.</p>
+            <a href="https://github.com/yourusername/personal-blog-page" target="_blank" style="display: inline-flex; align-items: center; background: #24292e; color: #fff; padding: 0.45em 1.1em; border-radius: 6px; text-decoration: none; font-size: 1em; font-weight: 600; margin-top: 0.8em; transition: background 0.2s; gap: 0.5em;">
+              <i class="fab fa-github" style="font-size: 1.2em;"></i> Source Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>Problem Solving</li>
+          <li>Critical Thinking</li>
+          <li>Communication</li>
+          <li>Teamwork & Collaboration</li>
+          <li>Adaptability</li>
+          <li>Time Management</li>
+          <li>Research & Analysis</li>
+          <li>Ethical Responsibility</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Coding Skills Icon Section (Hexagonal Layout) -->
+    <section class="coding-icons-hex section">
+      <div class="container">
+        <h2>Coding Skills</h2>
+        <div class="hexagon-grid">
+          <div class="hex python"><i class="fab fa-python"></i><span class="hex-tooltip">Python</span></div>
+          <div class="hex javascript"><i class="fab fa-js"></i><span class="hex-tooltip">JavaScript</span></div>
+          <div class="hex linux"><i class="fab fa-linux"></i><span class="hex-tooltip">Linux</span></div>
+          <div class="hex database"><i class="fas fa-database"></i><span class="hex-tooltip">Database</span></div>
+          <div class="hex git"><i class="fab fa-git-alt"></i><span class="hex-tooltip">Git</span></div>
+          <div class="hex cybersecurity"><i class="fas fa-user-secret"></i><span class="hex-tooltip">Cybersecurity</span></div>
+          <div class="hex r"><i class="fab fa-r-project"></i><span class="hex-tooltip">R</span></div>
+          <div class="hex html5"><i class="fab fa-html5"></i><span class="hex-tooltip">HTML5</span></div>
+          <div class="hex css3"><i class="fab fa-css3-alt"></i><span class="hex-tooltip">CSS3</span></div>
+          <div class="hex cpp"><i class="fas fa-code"></i><span class="hex-tooltip">C++</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="contact-subtitle">Let's connect! Feel free to reach out for collaborations, questions, or just to say hi.</p>
+        <div class="contact-card">
+        <form class="contact-form" id="contactForm" action="#" method="post" autocomplete="off">
+            <div class="form-group">
+          <label for="name" class="visually-hidden"></label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+          <label for="email" class="visually-hidden">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+          <label for="message" class="visually-hidden">Your Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+        <div id="contactSuccess" style="display:none; margin-top:1.2em; color:#00b894; font-weight:600; font-size:1.1em; text-align:center;">Thank you! Your message has been sent.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p style="text-align: center;">&copy; 2025 Made with ❤️ by <a href="https://github.com/rudro-kalix" target="_blank" style="color: #00b894; text-decoration: none; font-weight: 600;">Rudro</a></p>
+    </div>
+  </footer>
+  <script src="portfolio.js"></script>
+</body>
+</html> 

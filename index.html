@@ -24,6 +24,7 @@
       <div class="nav-links">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
+      <a href="#stats">Stats</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
       </div>
@@ -33,55 +34,169 @@
     <section id="about" class="about section">
       <div class="container">
         <h2>About Me</h2>
+        <!-- Introduction Video -->
+        <div class="about-video-wrapper">
+          <div class="about-video-card">
+            <iframe class="about-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Introduction Video" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
         <p>
-          I'm a passionate Software Engineering student at Daffodil International University, majoring in Data Science. I also practice ethical hacking and enjoy solving complex problems in cybersecurity and machine learning. I'm continuously learning and building real-world projects to improve my skills.        </p>
+          I'm a Software Engineering student at Daffodil International University, majoring in Data Science. I specialize in ethical hacking and cybersecurity, with a passion for solving complex problems in machine learning and data analysis.
+        </p>
+        <!-- Education Card -->
+        <div class="education-section">
+          <h3>Educational Qualifications</h3>
+          <div class="education-cards">
+            <div class="education-card">
+              <div class="edu-icon"><i class="fas fa-school"></i></div>
+              <div class="edu-title">Secondary School Certificate (SSC)</div>
+              <div class="edu-institute">Hiranmoyee High School</div>
+              <div class="edu-board"><strong>Board:</strong> Mymensingh</div>
+              <div class="edu-group"><strong>Group:</strong> Science</div>
+              <div class="edu-year">2022</div>
+              <div class="edu-grade">GPA: 4.78</div>
+            </div>
+            <div class="education-card">
+              <div class="edu-icon"><i class="fas fa-university"></i></div>
+              <div class="edu-title">Higher Secondary Certificate (HSC)</div>
+              <div class="edu-institute"><a href="https://armc.edu.bd/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;font-weight:600;">Advanced Residential Model College</a></div>
+              <div class="edu-board"><strong>Board:</strong> Mymensingh</div>
+              <div class="edu-group"><strong>Group:</strong> Science</div>
+              <div class="edu-year">2024</div>
+              <div class="edu-grade">GPA: 4.58</div>
+            </div>
+            <div class="education-card">
+              <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div class="edu-title">Bachelor of Science (B.Sc.)</div>
+              <div class="edu-institute"><a href="https://daffodilvarsity.edu.bd/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;font-weight:600;">Daffodil International University</a></div>
+              <div class="edu-group"><strong>Major:</strong> Data Science</div>
+              <div class="edu-status" style="color:#6366f1;font-weight:600;">Currently Studying (2025 - Present)</div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section id="projects" class="projects section">
       <div class="container">
         <h2>Projects</h2>
         <div class="project-list">
+          <!-- Portfolio Website Project -->
           <div class="project-card">
-            <h3>Calculator App</h3>
-            <p>A simple calculator built with HTML, CSS, and JavaScript for basic arithmetic operations.</p>
-            <a href="https://github.com/yourusername/calculator-app" target="_blank" style="display: inline-flex; align-items: center; background: #24292e; color: #fff; padding: 0.45em 1.1em; border-radius: 6px; text-decoration: none; font-size: 1em; font-weight: 600; margin-top: 0.8em; transition: background 0.2s; gap: 0.5em;">
-              <i class="fab fa-github" style="font-size: 1.2em;"></i> Source Code
-            </a>
+            <h3>Personal Portfolio Website</h3>
+            <p>This very website! Built to showcase my skills, education, and projects as a fresher software engineering student.</p>
+            <div class="lang-bar">
+              <div class="lang-segment html" style="width: 45%">HTML</div>
+              <div class="lang-segment css" style="width: 35%">CSS</div>
+              <div class="lang-segment js" style="width: 20%">JS</div>
+            </div>
+            <div class="project-links">
+              <a href="index.html" target="_blank" class="live-btn"><i class="fas fa-external-link-alt"></i> Live Site</a>
+              <a href="https://github.com/rudro-kalix/rudemaxportfolio.git" target="_blank" class="source-btn"><i class="fab fa-github"></i> Source Code</a>
+            </div>
           </div>
+          <!-- Odd Even Checker (C) -->
           <div class="project-card">
-            <h3>Weather App</h3>
-            <p>A beginner-friendly app that fetches and displays current weather information using a public API.</p>
-            <a href="https://github.com/yourusername/weather-app" target="_blank" style="display: inline-flex; align-items: center; background: #24292e; color: #fff; padding: 0.45em 1.1em; border-radius: 6px; text-decoration: none; font-size: 1em; font-weight: 600; margin-top: 0.8em; transition: background 0.2s; gap: 0.5em;">
-              <i class="fab fa-github" style="font-size: 1.2em;"></i> Source Code
-            </a>
+            <h3>Odd Even Checker (C)</h3>
+            <p>A simple C program that checks whether a given number is odd or even. Great for learning basic conditional statements and user input.</p>
+            <div class="lang-bar">
+              <div class="lang-segment c" style="width: 100%">C</div>
+            </div>
+            <div class="project-links">
+              <a href="404.html" target="_blank" class="source-btn"><i class="fab fa-github"></i> Source Code</a>
+            </div>
           </div>
+          <!-- Greater Smaller Number Checker (C) -->
           <div class="project-card">
-            <h3>Personal Blog Page</h3>
-            <p>A static web page to share personal thoughts and articles, styled with CSS.</p>
-            <a href="https://github.com/yourusername/personal-blog-page" target="_blank" style="display: inline-flex; align-items: center; background: #24292e; color: #fff; padding: 0.45em 1.1em; border-radius: 6px; text-decoration: none; font-size: 1em; font-weight: 600; margin-top: 0.8em; transition: background 0.2s; gap: 0.5em;">
-              <i class="fab fa-github" style="font-size: 1.2em;"></i> Source Code
-            </a>
+            <h3>Greater Smaller Number Checker (C)</h3>
+            <p>A C program that compares two numbers and determines which one is greater or smaller. Perfect for learning comparison operators.</p>
+            <div class="lang-bar">
+              <div class="lang-segment c" style="width: 100%">C</div>
+            </div>
+            <div class="project-links">
+              <a href="404.html" target="_blank" class="source-btn"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+          <!-- Simple Calculator (C) -->
+          <div class="project-card">
+            <h3>Simple Calculator (C)</h3>
+            <p>A basic C calculator that performs addition, subtraction, multiplication, and division. Great for learning arithmetic operations and switch statements.</p>
+            <div class="lang-bar">
+              <div class="lang-segment c" style="width: 100%">C</div>
+            </div>
+            <div class="project-links">
+              <a href="404.html" target="_blank" class="source-btn"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+          <!-- Factorial Calculator (C) -->
+          <div class="project-card">
+            <h3>Factorial Calculator (C)</h3>
+            <p>A C program that calculates the factorial of a given number using loops. Excellent for learning loop structures and mathematical operations.</p>
+            <div class="lang-bar">
+              <div class="lang-segment c" style="width: 100%">C</div>
+            </div>
+            <div class="project-links">
+              <a href="404.html" target="_blank" class="source-btn"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+          <!-- Prime Number Checker (C) -->
+          <div class="project-card">
+            <h3>Prime Number Checker (C)</h3>
+            <p>A C program that checks whether a given number is prime or not. Perfect for learning nested loops and mathematical logic.</p>
+            <div class="lang-bar">
+              <div class="lang-segment c" style="width: 100%">C</div>
+            </div>
+            <div class="project-links">
+              <a href="404.html" target="_blank" class="source-btn"><i class="fab fa-github"></i> Source Code</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="skills" class="skills section">
+    <!-- GitHub Stats & Wakatime Section -->
+    <section id="stats" class="stats section">
       <div class="container">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-          <li>Problem Solving</li>
-          <li>Critical Thinking</li>
-          <li>Communication</li>
-          <li>Teamwork & Collaboration</li>
-          <li>Adaptability</li>
-          <li>Time Management</li>
-          <li>Research & Analysis</li>
-          <li>Ethical Responsibility</li>
-        </ul>
+        <h2>Development Stats</h2>
+        <div class="stats-grid">
+          <!-- GitHub Stats -->
+          <div class="stats-card github-stats">
+            <h3><i class="fab fa-github"></i> GitHub Activity</h3>
+            <div class="stats-content">
+              <img src="https://github-readme-stats.vercel.app/api?username=rudro-kalix&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00e6a8&text_color=ffffff&icon_color=2979ff" alt="GitHub Stats" />
+            </div>
+          </div>
+          <!-- Top Languages -->
+          <div class="stats-card top-languages">
+            <h3><i class="fas fa-code"></i> Top Languages</h3>
+            <div class="stats-content">
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rudro-kalix&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00e6a8&text_color=ffffff&icon_color=2979ff" alt="Top Languages" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certifications" class="certifications section">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="certification-list">
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-certificate"></i>
+              <i class="fas fa-user-secret" style="margin-left:0.4em;color:#23272F;"></i>
+            </div>
+            <div class="cert-title">Certified Ethical Hacker (CEH) - Demo</div>
+            <div class="cert-org">EC-Council</div>
+            <div class="cert-date">Issued: May 2024</div>
+            <div class="cert-id">Credential ID: DEMO-CEH-123456</div>
+            <a href="#" class="cert-verify" target="_blank">View Credential</a>
+            <div class="cert-img-wrapper">
+              <img src="ceh-certificate.jpg" alt="Certified Ethical Hacker Certificate" class="cert-img" loading="lazy" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Coding Skills Icon Section (Hexagonal Layout) -->
-    <section class="coding-icons-hex section">
+    <section id="skills" class="coding-icons-hex section">
       <div class="container">
         <h2>Coding Skills</h2>
         <div class="hexagon-grid">
@@ -98,12 +213,62 @@
         </div>
       </div>
     </section>
+    <!-- Email Signature Section -->
+    <section id="email-signature" class="email-signature-section section">
+      <div class="container">
+        <h2>Contact Information</h2>
+        <p class="signature-subtitle">Professional contact details and social media links</p>
+        <div class="signature-preview">
+          <div class="signature-card">
+            <div class="signature-header">
+              <h3>Rudro</h3>
+              <p>Software Engineering Student & Data Science Major</p>
+            </div>
+            <div class="signature-content">
+              <div class="signature-info">
+                <div class="info-section">
+                  <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+                  <p><strong>Daffodil International University</strong></p>
+                  <p>B.Sc. in Software Engineering</p>
+                  <p>Major: Data Science</p>
+                </div>
+                <div class="info-section">
+                  <h4><i class="fas fa-envelope"></i> Contact</h4>
+                  <p><a href="mailto:252-35-584@diu.edu.bd">252-35-584@diu.edu.bd</a></p>
+                  <p><a href="tel:+8801607656890">+880 1607-659890</a></p>
+                  <p>Dhaka, Bangladesh</p>
+                </div>
+              </div>
+              <div class="signature-links">
+                <a href="https://github.com/rudro-kalix" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="404.html" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:252-35-584@diu.edu.bd" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="index.html" title="Portfolio"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+            <div class="signature-footer">
+              <p>Specializing in Ethical Hacking, Cybersecurity & Data Science</p>
+            </div>
+          </div>
+          <div class="signature-actions">
+            <a href="email-signature.html" target="_blank" class="signature-btn primary">
+              <i class="fas fa-external-link-alt"></i>
+              Download Email Signature
+            </a>
+            <button class="signature-btn secondary" onclick="copySignature()">
+              <i class="fas fa-copy"></i>
+              Copy Contact Info
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="contact" class="contact section">
       <div class="container">
         <h2>Contact</h2>
         <p class="contact-subtitle">Let's connect! Feel free to reach out for collaborations, questions, or just to say hi.</p>
         <div class="contact-card">
-        <form class="contact-form" id="contactForm" action="#" method="post" autocomplete="off">
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/xjkrqqon" method="POST" autocomplete="off">
             <div class="form-group">
           <label for="name" class="visually-hidden"></label>
           <input type="text" id="name" name="name" placeholder="Your Name" required>
@@ -129,5 +294,45 @@
     </div>
   </footer>
   <script src="portfolio.js"></script>
+  
+  <!-- Portfolio Analytics -->
+  <script>
+    // Simple analytics tracking
+    function trackPageView() {
+      const pageData = {
+        page: window.location.pathname,
+        title: document.title,
+        timestamp: new Date().toISOString(),
+        userAgent: navigator.userAgent,
+        screenSize: `${screen.width}x${screen.height}`,
+        referrer: document.referrer || 'direct'
+      };
+      
+      // Store in localStorage for demo purposes
+      // In production, you'd send this to your analytics service
+      const analytics = JSON.parse(localStorage.getItem('portfolioAnalytics') || '[]');
+      analytics.push(pageData);
+      localStorage.setItem('portfolioAnalytics', JSON.stringify(analytics));
+      
+      console.log('📊 Portfolio Analytics:', pageData);
+    }
+    
+    // Track page load
+    document.addEventListener('DOMContentLoaded', trackPageView);
+    
+    // Track button clicks
+    document.addEventListener('click', function(e) {
+      if (e.target.matches('a, button')) {
+        const clickData = {
+          type: 'click',
+          element: e.target.tagName,
+          text: e.target.textContent.trim(),
+          href: e.target.href || '',
+          timestamp: new Date().toISOString()
+        };
+        console.log('🖱️ Click Analytics:', clickData);
+      }
+    });
+  </script>
 </body>
 </html> 

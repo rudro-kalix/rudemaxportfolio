@@ -11,6 +11,22 @@ document.addEventListener('DOMContentLoaded', function() {
       // setTimeout(function(){ success.style.display = 'none'; }, 4000);
     });
   }
+  // IntersectionObserver reveal for sections
+  try {
+    var revealTargets = Array.prototype.slice.call(document.querySelectorAll('.section'));
+    revealTargets.forEach(function(el){
+      el.classList.add('reveal');
+    });
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.1 });
+    revealTargets.forEach(function(el){ io.observe(el); });
+  } catch(err) { /* noop */ }
 });
 
 // Loader bolt fly-to-logo animation with minimum 2s flash
@@ -204,4 +220,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 window.addEventListener('resize', function() {
   adjustSignatureButtons();
-});
+}, { passive: true });
